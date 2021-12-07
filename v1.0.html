@@ -761,7 +761,7 @@ Attribution-Share Alike</a>.</p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>The OPDS Page Streaming Extension (OPDS-PSE) is an <b><i>unofficial</i></b>
-extension of the <a href="http://opds-spec.org/specs/opds-catalog-1-1-20110627/">Open
+extension of the <a href="https://specs.opds.io/opds-1.2">Open
 Distribution Publication System</a>. Its goal is to enrich the OPDS feed with
 information allowing the client to request a specific page of a document
 without having to download it completely.<br>
@@ -809,7 +809,7 @@ style='mso-special-character:line-break'>
 &nbsp; Example&nbsp;:<o:p></o:p></span></h3>
 
 <p class=MsoNormal>&nbsp; Namespace declaration&nbsp;in the feed element (in
-our example, we use the prefix Â«&nbsp;pse&nbsp;Â»&nbsp;):</p>
+our example, we use the prefix «&nbsp;pse&nbsp;»&nbsp;):</p>
 
 <pre><b>&nbsp; &lt;<span class=start-tag>feed</span></b> <span
 class=attribute-name><span style='color:#1F497D'>xmlns</span></span><span
@@ -879,27 +879,27 @@ normal'><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;</span></
 <p class=MsoNormal>The Link MUST contain the following attributes&nbsp;:</p>
 
 <p class=MsoListParagraph style='margin-bottom:12.0pt;text-indent:-18.0pt'><span
-style='font-family:Symbol'>Â·</span><span style='font-size:7.0pt;line-height:
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;line-height:
 115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Â«&nbsp;<b>rel</b>&nbsp;Â» MUST have the value &quot;<b>http://vaemendis.net/opds-pse/stream</b>&quot;
+</span>«&nbsp;<b>rel</b>&nbsp;» MUST have the value &quot;<b>http://vaemendis.net/opds-pse/stream</b>&quot;
 that indicates that this link is a OPDS-PSE page streaming link</p>
 
 <p class=MsoListParagraph style='margin-bottom:12.0pt;text-indent:-18.0pt'><span
-style='font-family:Symbol'>Â·</span><span style='font-size:7.0pt;line-height:
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;line-height:
 115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Â«&nbsp;<b>type</b>&nbsp;Â» MUST indicate the type of image returned by the
+</span>«&nbsp;<b>type</b>&nbsp;» MUST indicate the type of image returned by the
 server (value MUST be one of the following&nbsp;: &quot;<b>image/jpeg</b>&quot;,
 &quot;<b>image/gif</b>&quot; or &quot;<b>image/png</b>&quot;)</p>
 
 <p class=MsoListParagraph style='margin-bottom:12.0pt;text-indent:-18.0pt'><span
-style='font-family:Symbol'>Â·</span><span style='font-size:7.0pt;line-height:
+style='font-family:Symbol'>·</span><span style='font-size:7.0pt;line-height:
 115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Â«&nbsp;<b>count</b>&nbsp;Â» MUST provide the number of pages of the
+</span>«&nbsp;<b>count</b>&nbsp;» MUST provide the number of pages of the
 document.</p>
 
 <p class=MsoListParagraph style='text-indent:-18.0pt'><span style='font-family:
-Symbol'>Â·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Â«&nbsp;<b>href</b>&nbsp;Â» MUST provide the URL that the client has to
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>«&nbsp;<b>href</b>&nbsp;» MUST provide the URL that the client has to
 use to get individual pages of the document. <br>
 This URL MUST contain the string &quot;<b>{pageNumber}</b>&quot;, which the
 client MUST replace with the number of the desired page.<br>
