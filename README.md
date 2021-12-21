@@ -8,7 +8,7 @@ This extension was designed primarily for comic books, to allow reading them on 
 
 ## Why this repo?
 
-In order to add more features to the OPDS PSE 1.0 specification, we created this repository to host both the source of the specification, and its webpage, open for everyone to discuss and contribute.
+In order to add more features to the OPDS PSE 1.0 specification, we created this repository to host the source of the specification, open for everyone to discuss and contribute.
 
 ## Credits
 
