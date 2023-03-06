@@ -1,7 +1,7 @@
 ## 1.2
 
 ### Features
-- add new attribute `lastReadUpdate` on the acquisition link
+- add new attribute `lastReadDate` on the acquisition link
 
 ## 1.1
 
